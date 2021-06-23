@@ -19,7 +19,7 @@ const randomIntegerFromInterval = (num) => {
 refStartButton.addEventListener("click", startChangeColor);
 refStopButton.addEventListener("click", stopChangeColor)
 
-let intervallId;
+let intervallId= null;
  
 function startChangeColor() {
     intervallId=setInterval(() => {
